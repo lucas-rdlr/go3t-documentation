@@ -33,8 +33,8 @@ humanize==4.11.0
 idna==3.10
 imagesize==1.4.1
 importlib_resources==6.4.5
-jax==0.4.30
-jaxlib==0.4.30
+jax==0.4.34
+jaxlib==0.4.34
 jaxopt==0.8.3
 jaxtyping==0.2.34
 Jinja2==3.1.4
