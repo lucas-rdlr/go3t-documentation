@@ -1,0 +1,116 @@
+.
+├── docs
+│   ├── build
+│   │   ├── doctrees
+│   │   │   ├── api.doctree
+│   │   │   ├── environment.pickle
+│   │   │   ├── index.doctree
+│   │   │   ├── install.doctree
+│   │   │   └── support.doctree
+│   │   └── html
+│   │       ├── api.html
+│   │       ├── genindex.html
+│   │       ├── index.html
+│   │       ├── install.html
+│   │       ├── objects.inv
+│   │       ├── py-modindex.html
+│   │       ├── search.html
+│   │       ├── searchindex.js
+│   │       ├── _sources
+│   │       │   ├── api.rst.txt
+│   │       │   ├── index.rst.txt
+│   │       │   ├── install.rst.txt
+│   │       │   └── support.rst.txt
+│   │       ├── _static
+│   │       │   ├── basic.css
+│   │       │   ├── css
+│   │       │   │   ├── badge_only.css
+│   │       │   │   ├── fonts
+│   │       │   │   │   ├── fontawesome-webfont.eot
+│   │       │   │   │   ├── fontawesome-webfont.svg
+│   │       │   │   │   ├── fontawesome-webfont.ttf
+│   │       │   │   │   ├── fontawesome-webfont.woff
+│   │       │   │   │   ├── fontawesome-webfont.woff2
+│   │       │   │   │   ├── lato-bold-italic.woff
+│   │       │   │   │   ├── lato-bold-italic.woff2
+│   │       │   │   │   ├── lato-bold.woff
+│   │       │   │   │   ├── lato-bold.woff2
+│   │       │   │   │   ├── lato-normal-italic.woff
+│   │       │   │   │   ├── lato-normal-italic.woff2
+│   │       │   │   │   ├── lato-normal.woff
+│   │       │   │   │   ├── lato-normal.woff2
+│   │       │   │   │   ├── Roboto-Slab-Bold.woff
+│   │       │   │   │   ├── Roboto-Slab-Bold.woff2
+│   │       │   │   │   ├── Roboto-Slab-Regular.woff
+│   │       │   │   │   └── Roboto-Slab-Regular.woff2
+│   │       │   │   └── theme.css
+│   │       │   ├── doctools.js
+│   │       │   ├── documentation_options.js
+│   │       │   ├── file.png
+│   │       │   ├── fonts
+│   │       │   │   ├── Lato
+│   │       │   │   │   ├── lato-bold.eot
+│   │       │   │   │   ├── lato-bolditalic.eot
+│   │       │   │   │   ├── lato-bolditalic.ttf
+│   │       │   │   │   ├── lato-bolditalic.woff
+│   │       │   │   │   ├── lato-bolditalic.woff2
+│   │       │   │   │   ├── lato-bold.ttf
+│   │       │   │   │   ├── lato-bold.woff
+│   │       │   │   │   ├── lato-bold.woff2
+│   │       │   │   │   ├── lato-italic.eot
+│   │       │   │   │   ├── lato-italic.ttf
+│   │       │   │   │   ├── lato-italic.woff
+│   │       │   │   │   ├── lato-italic.woff2
+│   │       │   │   │   ├── lato-regular.eot
+│   │       │   │   │   ├── lato-regular.ttf
+│   │       │   │   │   ├── lato-regular.woff
+│   │       │   │   │   └── lato-regular.woff2
+│   │       │   │   └── RobotoSlab
+│   │       │   │       ├── roboto-slab-v7-bold.eot
+│   │       │   │       ├── roboto-slab-v7-bold.ttf
+│   │       │   │       ├── roboto-slab-v7-bold.woff
+│   │       │   │       ├── roboto-slab-v7-bold.woff2
+│   │       │   │       ├── roboto-slab-v7-regular.eot
+│   │       │   │       ├── roboto-slab-v7-regular.ttf
+│   │       │   │       ├── roboto-slab-v7-regular.woff
+│   │       │   │       └── roboto-slab-v7-regular.woff2
+│   │       │   ├── jquery.js
+│   │       │   ├── js
+│   │       │   │   ├── badge_only.js
+│   │       │   │   ├── theme.js
+│   │       │   │   └── versions.js
+│   │       │   ├── language_data.js
+│   │       │   ├── minus.png
+│   │       │   ├── plus.png
+│   │       │   ├── pygments.css
+│   │       │   ├── searchtools.js
+│   │       │   ├── sphinx_highlight.js
+│   │       │   └── _sphinx_javascript_frameworks_compat.js
+│   │       └── support.html
+│   ├── make.bat
+│   ├── Makefile
+│   └── source
+│       ├── api.rst
+│       ├── conf.py
+│       ├── index.rst
+│       ├── install.rst
+│       ├── _static
+│       ├── support.rst
+│       └── _templates
+├── readthedocs.yaml
+├── source
+│   ├── notebooks
+│   ├── requirements.txt
+│   └── src
+│       ├── classes.py
+│       ├── clustering.py
+│       ├── config.py
+│       ├── datasets.py
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   ├── classes.cpython-310.pyc
+│       │   └── train.cpython-310.pyc
+│       └── train.py
+└── tree.txt
+
+19 directories, 94 files

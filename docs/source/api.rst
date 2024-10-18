@@ -4,11 +4,11 @@ API
 Training module
 ---------------
 
-.. automodule:: train
+.. automodule:: src.train
    :members:
 
 Classes module
 ---------------
 
-.. automodule:: classes
+.. automodule:: src.classes
    :members:

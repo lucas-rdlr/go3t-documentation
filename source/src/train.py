@@ -13,7 +13,7 @@ def train(EPOCHS, LOADER, MODEL, OPTIMIZER, AUTOENCODER, DEVICE, DATASET_ID, NAM
     Args:
         EPOCHS (int): number of epochs to run the training loop.
         LOADER (torch.utils.data.DataLoader): dataloader.
-        MODEL (): .
+        MODEL (torch.nn.Module): GO3T module.
         OPTIMIZER (torch.optim): .
         AUTOENCODER (torch.nn.Module): .
         DEVICE (torch.device, optional): the device on which the computation will be performed. Defaults to CUDA if available, otherwise CPU.
@@ -22,7 +22,7 @@ def train(EPOCHS, LOADER, MODEL, OPTIMIZER, AUTOENCODER, DEVICE, DATASET_ID, NAM
         FOLDER (str): name of the folder to save the files.
 
     Returns:
-        loss_history (list): list containing the training losses.
+        list: list containing the training losses.
     """
 
     # Initialize best_loss to a very high number
