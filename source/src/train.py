@@ -7,6 +7,23 @@ from sklearn.metrics import adjusted_rand_score as ARI, normalized_mutual_info_s
 from src.classes import NTXent, NoiseContrastiveLoss
 
 def train(EPOCHS, LOADER, MODEL, OPTIMIZER, AUTOENCODER, DEVICE, DATASET_ID, NAME, FOLDER):
+    """
+    Main traning function for the GO3T model.
+
+    Args:
+        EPOCHS (int): number of epochs to run the training loop.
+        LOADER (torch.utils.data.DataLoader): dataloader.
+        MODEL (): .
+        OPTIMIZER (torch.optim): .
+        AUTOENCODER (torch.nn.Module): .
+        DEVICE (torch.device, optional): the device on which the computation will be performed. Defaults to CUDA if available, otherwise CPU.
+        DATASET_ID (str): name of the dataset to use.
+        NAME (str): name to use as extension to save the torch models parameters.
+        FOLDER (str): name of the folder to save the files.
+
+    Returns:
+        loss_history (list): list containing the training losses.
+    """
 
     # Initialize best_loss to a very high number
     loss_history = []
